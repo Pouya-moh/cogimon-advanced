@@ -12,7 +12,7 @@
         "branches": [ "master" ],
         "description": "Parser for Semantic Robot Description Format (SRDF).",
         "keywords": [ "srdfdom", "srdf" ],
-        "repository": "https://github.com/ADVRHumanoids/srdfdom.git",
+        "repository": "https://github.com/ADVRHumanoids/srdfdom.git"
   },
   "versions": [
     {  
