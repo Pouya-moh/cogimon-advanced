@@ -1,0 +1,25 @@
+{
+   "catalog": {
+     "title": "SharedLibpp",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "sharedlibpp",
+  "templates": [
+    "cmake-cpp",
+    "base"
+  ],
+  "variables": {
+    "branches": [
+      "master"
+    ],
+    "description": "The sharedlibpp is a tiny cross-platform library to create and load shared 
+libraries for different platform (Linux/Mac/Windows).",
+    "keywords": [
+      "sharedlibpp"
+    ],
+    "repository": "https://github.com/ADVRHumanoids/sharedlibpp.git"
+  }
+}

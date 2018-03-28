@@ -1,0 +1,26 @@
+{
+   "catalog": {
+     "title": "RTT ROS Node",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+    "name":      "rtt_rosnode",
+    "templates": [ "cmake-catkin", "base" ],
+
+    "variables": {
+        "description": "RTT ROS Node Package",
+        "repository":  "https://github.com/orocos/rtt_ros_integration.git",
+        "branches":    [ "master", "toolchain-2.9" ],
+	"sub-directory": "rtt_rosnode"
+    },
+    "versions": [
+        {
+            "name":             "toolchain-2.9",
+            "variables": {
+                "ros":          "kinetic"
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+   "catalog": {
+     "title": "OpenSoT",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "opensot",
+  "templates": [
+    "cmake-catkin",
+    "base"
+  ],
+  "variables": {
+    "access": "public",
+    "branches": [
+      "devel"
+    ],
+    "description": "OpenSoT is a library dedicated to hierarchical whole-body control of robots subject to constraints such as joint limits, joint velocities, cartesian constraints...",
+    "keywords": [
+      "opensot"
+    ],
+    "repository": "https://github.com/Oeser/OpenSoT.git"
+  },
+  "versions": [
+    {  
+      "name":         "devel",
+      "variables": {
+        "ros":          "kinetic"
+      }
+    }
+  ]
+}

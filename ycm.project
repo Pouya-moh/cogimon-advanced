@@ -1,0 +1,26 @@
+{
+   "catalog": {
+     "title": "YCM",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "ycm",
+  "templates": [
+    "cmake-cpp",
+    "base"
+  ],
+  "variables": {
+    "access": "public",
+    "branches": [
+      "master"
+    ],
+    "description": "extra cmake modules",
+    "keywords": [
+      "ycm",
+      "cpp"
+    ],
+    "repository": "https://github.com/robotology/ycm.git"
+  }
+}

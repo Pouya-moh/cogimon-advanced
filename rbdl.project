@@ -1,0 +1,30 @@
+{
+   "catalog": {
+     "title": "RBDL",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "rbdl",
+  "templates": [
+    "cmake-cpp",
+    "base"
+  ],
+  "variables": {
+    "branches": [
+      "default"
+    ],
+    "cmake.options": [
+      "RBDL_BUILD_ADDON_URDFREADER=ON",
+      "RBDL_USE_ROS_URDF_LIBRARY=ON", 
+      "@{next-value|[]}"
+    ], 
+    "description": "Rigid Body Dynamics Library",
+    "keywords": [
+      "rbdl"
+    ],
+    "repository": "https://bitbucket.org/Cubih/rbdl",
+    "scm": "mercurial"
+  }
+}

@@ -1,0 +1,33 @@
+{
+   "catalog": {
+     "title": "Model_Interface_RBDL",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "modelinterface-rbdl",
+  "templates": [
+    "cmake-catkin",
+    "base"
+  ],
+  "variables": {
+    "branches": [
+      "master"
+    ],
+    "description": "Model Interface RBDL",
+    "keywords": [
+      "rbdl",
+      "model_interface"
+    ],
+    "repository": "https://github.com/Oeser/ModelInterfaceRBDL.git"
+  },
+  "versions": [
+    {  
+      "name":         "master",
+      "variables": {
+        "ros":          "kinetic"
+      }
+    }
+  ]
+}

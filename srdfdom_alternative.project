@@ -1,0 +1,25 @@
+{
+  "catalog": {
+    "description": "opensource://default.md",
+    "image": [
+      "catalog://system_image_default.jpg"
+    ],
+    "title": "Semantic Robot Description DOM Parser"
+  },
+  "name": "srdfdom_alternative",
+  "templates": [ "cmake-catkin", "base" ],
+  "variables": {
+        "branches": [ "master" ],
+        "description": "Parser for Semantic Robot Description Format (SRDF).",
+        "keywords": [ "srdfdom", "srdf" ],
+        "repository": "https://github.com/ADVRHumanoids/srdfdom.git",
+  },
+  "versions": [
+    {  
+      "name":         "master",
+      "variables": {
+        "ros":          "kinetic"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+   "catalog": {
+     "title": "RobotInterfaceOROCOS",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "robot_interface_orocos",
+  "templates": [
+    "cmake-catkin",
+    "base"
+  ],
+  "variables": {
+    "branches": [
+      "master"
+    ],
+    "description": "Implementation of the XBot::RobotInterface for the OROCOS framework.",
+    "keywords": [
+      "orocos"
+    ],
+    "repository": "https://github.com/ADVRHumanoids/RobotInterfaceOROCOS.git"
+  },
+  "versions": [
+    {	 
+      "name":         "master",
+	    "variables": {
+	      "ros":          "kinetic"
+	    }
+    }
+  ]
+}

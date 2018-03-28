@@ -1,0 +1,33 @@
+{
+   "catalog": {
+     "title": "TrajectoryUtils",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "trajectory_utils",
+  "templates": [
+    "cmake-catkin",
+    "base"
+  ],
+  "variables": {
+    "access": "public",
+    "branches": [
+      "master"
+    ],
+    "description": "The purpose of this library is to have a wrapper around the KDL::Trajectories in order to simplify the usage and the interface.",
+    "keywords": [
+      "trajectory"
+    ],
+    "repository": "https://github.com/Oeser/trajectory_utils.git"
+  },
+  "versions": [
+    {  
+      "name":         "master",
+      "variables": {
+        "ros":          "kinetic"
+      }
+    }
+  ]
+}

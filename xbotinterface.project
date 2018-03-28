@@ -1,0 +1,33 @@
+{
+   "catalog": {
+     "title": "XBotInterface",
+     "description": "opensource://default.md",
+     "image": [
+       "catalog://system_image_default.jpg"
+     ]
+  },
+  "name": "xbotinterface",
+  "templates": [
+    "cmake-catkin",
+    "base"
+  ],
+  "variables": {
+    "branches": [
+      "master"
+    ],
+    "description": "XBotInterface provides a generic API to model and control a robot.",
+    "keywords": [
+      "xbot",
+      "xbotinterface"
+    ],
+    "repository": "https://github.com/Oeser/XBotInterface.git"
+  },
+  "versions": [
+    {	 
+      "name":         "master",
+	    "variables": {
+	      "ros":          "kinetic"
+	    }
+    }
+  ]
+}

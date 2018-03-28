@@ -1,0 +1,25 @@
+{
+  "catalog": {
+    "description": "opensource://default.md",
+    "image": [
+      "catalog://system_image_default.jpg"
+    ],
+    "title": "XBotCoreModel"
+  },
+  "name": "xbotcoremodel_alternative",
+  "templates": [
+    "cmake-cpp",
+    "base"
+  ],
+  "variables": {
+    "branches": [
+      "master"
+    ],
+    "description": "Parses URDF and SRDF used for kinematic chains.",
+    "keywords": [
+      "iit",
+      "srdf"
+    ],
+    "repository": "https://github.com/Oeser/XBotCoreModel.git"
+  }
+}
