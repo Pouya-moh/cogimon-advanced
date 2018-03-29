@@ -39,7 +39,10 @@
                         "libboost-system-dev",
                         "libboost-regex-dev",
                         "libeigen3-dev",
-                        "liburdfdom-dev"
+                        "liburdfdom-dev",
+                        "mercurial",
+                        "libmatio-dev",
+                        "ros-kinetic-desktop-full"
                     ]
                 }
             }
