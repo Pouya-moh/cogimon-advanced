@@ -133,7 +133,6 @@
         [ "xbotinterface",                    "master"        ],
         [ "sharedlibpp",                      "master"        ],
         [ "trajectory_utils",                 "master"        ],
-        [ "srdfdom_alternative",              "master"        ],
         [ "modelinterface-rbdl",              "master"        ],
         [ "opensot",                          "devel"         ]
 
